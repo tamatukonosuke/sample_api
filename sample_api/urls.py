@@ -1,7 +1,7 @@
 from django.conf.urls import url, include
 from django.contrib import admin
 
-from users_manage.urls import router as users_manage_router
+from users_manage.url import router as users_manage_router
 
 urlpatterns = [
 
